@@ -115,3 +115,20 @@ footer p {
     color: #bbb;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .clases article{
+        margin: 0;
+        padding: 0;
+        display: block;
+        flex: auto;
+    }
+
+    .clases article h2{
+        margin: 0;
+    }
+
+    .clases article .contenido-texto{
+        margin: 0 20px 40px;
+    }
+}
